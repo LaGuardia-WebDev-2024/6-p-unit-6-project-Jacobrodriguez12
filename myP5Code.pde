@@ -29,6 +29,20 @@ ellipse(228,210,40,75);
 fill(0,0,0)
 ellipse(182,230,20,35);
 ellipse(227,229,20,35);
+fill(255,255,255)
+ellipse(180,217,10,12);
+ellipse(227,217,10,12);
+fill(0,0,0)
+noFill()
+strokeWeight(2)
+arc(203,270,80,50,radians(180),radians(360));
+fill(0,0,0)
+ellipse(205,280,70,50);
+fill(255,255,255)
+ellipse(204,265,40,20);
+fill(0,0,0)
+ellipse(204,320,99,2);
+
 
   
 
