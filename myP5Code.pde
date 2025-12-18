@@ -12,10 +12,12 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
+//head 
 fill(0,0,0)
 ellipse(200,240,250,250);
 ellipse(80,100,130,130);
 ellipse(320,100,130,130);
+//face
 fill(251,216,190)
 noStroke()
 ellipse(175,235,130,200);
@@ -29,22 +31,33 @@ ellipse(228,210,40,75);
 fill(0,0,0)
 ellipse(182,230,20,35);
 ellipse(227,229,20,35);
+//eyes
 fill(255,255,255)
 ellipse(180,217,10,12);
 ellipse(227,217,10,12);
 fill(0,0,0)
 noFill()
 strokeWeight(2)
-arc(203,270,80,50,radians(180),radians(360));
+arc(203,270,80,50,radians(200),radians(330));
 fill(0,0,0)
 ellipse(205,280,70,50);
 fill(255,255,255)
 ellipse(204,265,40,20);
+noFill()
+strokeWeight(2.5)
+arc(203,275,150,100, radians(0), radians(180));
 fill(0,0,0)
-ellipse(204,320,99,2);
+arc(203,320,80,50,radians(0),radians(180));
+line(140,270,115,282)
+line(266,270,289,280)
+fill(242, 104, 94)
+ellipse(205,338,50,20)
+fill(251,216,190)
+arc(203,360,80,50,radians(0),radians(180));
 
 
-  
+
+
 
 }
 

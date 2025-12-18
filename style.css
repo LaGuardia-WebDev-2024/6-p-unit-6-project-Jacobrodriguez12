@@ -1,15 +1,5 @@
 body {
-   background-image: linear-gradient(
-    to right, /* or 'to bottom' for horizontal stripes, or an angle like 45deg */
-    #DAA928 0%, /* Red starts at 0% */
-    #FB8931 25%, /* Red ends at 25% */
-    #E7541E 35%, /* Blue starts at 25% */
-    #509844 50%, /* Blue ends at 50% */
-    #D03499 60%, /* Green starts at 50% */
-    #1E7BC9 75%, /* Green ends at 75% */
-    #B121B6 85%, /* Yellow starts at 75% */
-    #DD133B 100% /* Yellow ends at 100% */
-  );
+   background-color: rgb(124, 30, 30);
 }
 
 html{
@@ -25,7 +15,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(111, 53, 76);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
@@ -46,8 +36,12 @@ h2{
 
 #start{
   text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #c33593;
 }
 
 #end{
   text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #c91e87;
 }
